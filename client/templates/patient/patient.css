@@ -1,0 +1,187 @@
+.patient-view .panel-header {
+    height: 50px;
+}
+
+.patient-view .patient-form{
+    margin: 0;
+    background: #889baf;
+    color: #EEE;
+}
+.patient-view .patient-form h2{
+    background: #4D4D4D;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #797979;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 20px;
+    margin: -30px -30px 30px -30px;
+}
+.patient-view .patient-form input[type="text"],
+.patient-view .patient-form input[type="date"],
+.patient-view .patient-form input[type="datetime"],
+.patient-view .patient-form input[type="email"],
+.patient-view .patient-form input[type="number"],
+.patient-view .patient-form input[type="search"],
+.patient-view .patient-form input[type="time"],
+.patient-view .patient-form input[type="url"],
+.patient-view .patient-form input[type="password"],
+.patient-view .patient-form textarea,
+.patient-view .patient-form select
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 0 10px;
+    border: none;
+    border-bottom: 1px dashed #aae;
+    background: transparent;
+    margin-bottom: 10px;
+    font: 14px/26px Arial, Helvetica, sans-serif;
+}
+.patient-view .patient-form textarea{
+    resize:none;
+    overflow: hidden;
+}
+.patient-view .patient-form input[type="button"],
+.patient-view .patient-form input[type="submit"]{
+    -moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    background-color: #2CBBBB;
+    border: 1px solid #27A0A0;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14px;
+    padding: 8px 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.patient-view .patient-form input[type="button"]:hover,
+.patient-view .patient-form input[type="submit"]:hover {
+    background:linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+    background-color:#34CACA;
+}
+
+.patient-view .patient-form .panel-header {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#606c88+0,3f4c6b+100;Grey+3D+%232 */
+    background: rgb(96,108,136); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(96,108,136,1) 0%, rgba(63,76,107,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(96,108,136,1)), color-stop(100%,rgba(63,76,107,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(96,108,136,1) 0%,rgba(63,76,107,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(96,108,136,1) 0%,rgba(63,76,107,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(96,108,136,1) 0%,rgba(63,76,107,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(96,108,136,1) 0%,rgba(63,76,107,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606c88', endColorstr='#3f4c6b',GradientType=0 ); /* IE6-9 */
+}
+.patient-view .btn-edit,
+.patient-view .btn-save,
+.patient-view .btn-add {
+    background: transparent none repeat scroll 0 0;
+    color: white;
+    float: right;
+    font: 14px sans-serif;
+    height: 30px;
+    margin: 10px 0;
+    min-width: 80px;
+}
+.patient-view .patient-form form header {
+    text-align: center;
+}
+.patient-view .patient-form .patient-avatar {
+    height: 100px;
+    margin: 25px;
+    vertical-align: middle;
+    width: 100px;
+}
+
+.patient-view .patient-list {
+    background: rgba(228, 232, 255, 1) none repeat scroll 0 0
+}
+
+.patient-view .patient-list .panel-header {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a7c7dc+0,85b2d3+100;Blue+Grey+3D */
+background: rgb(167,199,220); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(167,199,220,1) 0%, rgba(133,178,211,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(167,199,220,1)), color-stop(100%,rgba(133,178,211,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(167,199,220,1) 0%,rgba(133,178,211,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(167,199,220,1) 0%,rgba(133,178,211,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(167,199,220,1) 0%,rgba(133,178,211,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(167,199,220,1) 0%,rgba(133,178,211,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7c7dc', endColorstr='#85b2d3',GradientType=0 ); /* IE6-9 */
+}
+
+.patient-view .patient-list .list-item {
+    background: #fff none repeat scroll 0 0;
+    height: 50px;
+    line-height: 50px;
+    list-style: outside none none;
+    margin: 5px 0;
+    cursor: pointer;
+}
+.patient-view .patient-list .list-item .patient-avatar {
+    height: 50px;
+    width: 50px;
+}
+
+
+.patient-view .patient-list .patient-searcher {
+    float: none;
+    margin: 0 auto 20px;
+    overflow: hidden;
+    padding: 0px;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.patient-view .patient-list .patient-searcher input#search{
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #232833;
+  padding-left: 15px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.patient-view .patient-list .patient-searcher input#search::-webkit-input-placeholder {
+   color: #bbb;
+}
+ 
+.patient-view .patient-list .patient-searcher input#search:-moz-placeholder { /* Firefox 18- */
+   color: #bbb;  
+}
+ 
+.patient-view .patient-list .patient-searcher input#search::-moz-placeholder {  /* Firefox 19+ */
+   color: #bbb;  
+}
+ 
+.patient-view .patient-list .patient-searcher input#search:-ms-input-placeholder {  
+   color: #bbb;  
+}
+.patient-view .patient-list .patient-searcher button.icon{
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    border: none;
+    background: #bbb;
+    height: 50px;
+    width: 50px;
+    color: #4f5b66;
+    font-size: 10pt;
+    outline: none;
+}
+.patient-view .patient-list .patient-searcher:hover button.icon:hover{
+    background: 232833;
+}

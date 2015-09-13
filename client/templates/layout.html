@@ -1,0 +1,41 @@
+<template name="layout">
+		<div class="{{ begin }}"></div>
+		<section class="body">
+			<nav class="navbar navbar-inverse navbar-fixed-top">
+				<div class="container-fluid">
+					<article class="navbar-collapse collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li> <a href="#">this</a> </li>
+							<li> <a href="#">could</a> </li>
+							<li> <a href="#">be</a> </li>
+							<li> <a href="#">a good</a> </li>
+							<li> <a href="#">system</a> </li>
+						</ul>
+						<form class="navbar-form navbar-right">
+							<input type="text" class="form-control" placeholder="Search...">
+						</form>
+					</article>
+				</div>
+			</nav>
+			<section class="panel main-panel">
+				<article class="container-fluid">
+			  	<div class="row">
+				  	<aside class="menu-aside col-lg-3 col-md-2 col-sm-1">
+				  		<nav class="vertical-menu">
+				  			<div class="user-avatar">
+				  				<img src="{{ userAvatar }}">
+				  			</div>
+				  			<ul>
+				  				{{ #each menuList }}
+				  				{{/each}}
+				  			</ul>
+				  		</nav>
+				  	</aside>
+				  	<div class="col-lg-11">
+							{{ > DynamicTemplate template=getTemplate data=getDataContext }}
+				  	</div>
+			  	</div>
+				</article>					
+			</section>
+		</section>
+</template>

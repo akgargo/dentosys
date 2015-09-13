@@ -1,0 +1,35 @@
+<head>
+	<title>Dashboard - Dentosys</title>
+</head>
+<template name="dashboard">
+	<section class="row">
+		<article class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			{{> reactiveTable collection=myCollection }}
+		</article>
+		<article class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+			<section class="panel panel-info">
+				<div class="panel-heading">Pacientes</div>
+			  <div class="panel-body">
+			    <p>...</p>
+			  </div>
+			</section>
+		</article>
+		<article class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+			<section class="panel panel-info">
+				<div class="panel-heading">Horas</div>
+			  <div class="panel-body">
+			    <p>...</p>
+			  </div>
+			</section>
+		</article>
+	</section>
+	<footer>
+	</footer>
+</template>
+<template name="postItem">
+  <div class="post">
+    <div class="post-content">
+      <h3><a href="{{url}}">{{title}}</a><span>{{domain}}</span></h3>
+    </div>
+  </div>
+</template>

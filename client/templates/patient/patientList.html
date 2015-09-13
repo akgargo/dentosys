@@ -1,0 +1,39 @@
+<template name="patientList">
+	<div class="patient-list panel">
+		<header class="panel-header">
+				<button type="button" id="action" class="btn btn-add">Nuevo</button>
+		</header>
+		<section class="panel-body">
+			<header>
+			  <div class="patient-searcher col-md-10">
+			    <input type="search" id="search" placeholder="Buscar..." />
+			    <button class="icon"><i class="fa fa-search"></i></button>
+			  </div>
+			</header>
+			<ul class="list">
+				{{ #each patients }}
+					<li class="list-item col-md-12">
+						{{ > patientRow }}
+					</li>
+				{{/each}}
+			</ul>
+			<button class="previous">Prev</button>
+			<button class="next">Next</button>
+		</section>
+	</div>
+</template>
+
+<template name="patientRow">
+	<section class="row patient-row">
+		{{#with profile}}
+			<article class="col-lg-1 col-md-1 col-sm-1 col-xs-2">
+				<img class="patient-avatar" src="{{avatar}}"/>
+			</article>
+			<article class="col-lg-10 col-md-10 col-sm-10 col-xs-8">
+				<span>{{name}}</span>
+			</article>
+			<article class="col-lg-1 col-md-1 col-sm-1 col-xs-2">
+			</article>
+		{{/with}}
+	</section>
+</template>

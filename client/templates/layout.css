@@ -1,0 +1,40 @@
+.accesing {
+	height: 100%;
+	width: 100%;
+	background: url(../images/bg.png) repeat;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight:300;
+	text-align: left;
+	text-decoration: none;
+	position: fixed;
+	z-index: 9999;
+}
+.grantaccess {
+	-webkit-transition: height 1s ease;
+	-moz-transition: height 1s ease;
+	-ms-transition: height 1s ease;
+	-o-transition: height 1s ease;
+	transition: height 1s ease;
+	height: 50px
+}
+
+.body {
+	margin-top: 50px;
+	min-height: calc(100% - 50px);
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f9fcf7+0,f5f9f0+100;L+Green+3D */
+	background: #f9fcf7; /* Old browsers */
+	background: -moz-linear-gradient(top, #f9fcf7 0%, #f5f9f0 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9fcf7), color-stop(100%,#f5f9f0)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #f9fcf7 0%,#f5f9f0 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #f9fcf7 0%,#f5f9f0 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #f9fcf7 0%,#f5f9f0 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #f9fcf7 0%,#f5f9f0 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9fcf7', endColorstr='#f5f9f0',GradientType=0 ); /* IE6-9 */
+}
+.main-panel {
+	margin-top: 100px; 
+}
+
+.menu-aside {
+	width: 150px; 
+}

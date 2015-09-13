@@ -1,0 +1,14 @@
+<template name="patient">
+	<div class="patient-view">
+		<div class="row">
+			<div class="col-lg-8 col-sm-12">
+					{{ #DynamicTemplate template=getTemplate data=getDataContext }}
+						{{ > patientList }}
+					{{ /DynamicTemplate }}
+			</div>
+			<div class="col-lg-4 sm-hidden hidden-sm">
+					{{ > patientForm }}
+			</div>
+		</div>
+	</div>
+</template>
